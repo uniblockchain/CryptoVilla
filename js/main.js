@@ -117,7 +117,7 @@ jQuery(document).ready(function ($) {
 
 
   // Porfolio - uses the magnific popup jQuery plugin
-  $('.portfolio-popup').magnificPopup({
+  $('.gallery-popup').magnificPopup({
     type: 'image',
     removalDelay: 300,
     mainClass: 'mfp-fade',
@@ -152,8 +152,8 @@ jQuery(document).ready(function ($) {
     }
   });
 
-  // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
+  // exchanges carousel (uses the Owl Carousel library)
+  $(".exchanges-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,

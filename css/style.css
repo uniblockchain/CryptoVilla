@@ -530,30 +530,30 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
-/* About Section
+/* plan Section
 --------------------------------*/
 
-#about {
+#plan {
   padding: 60px 0 30px 0;
 }
 
-#about .about-img {
+#plan .plan-img {
   overflow: hidden;
 }
 
-#about .about-img img {
+#plan .plan-img img {
   margin-left: -15px;
   max-width: 100%;
 }
 
-#about .content h2 {
+#plan .content h2 {
   color: #50d8af;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
 }
 
-#about .content h3 {
+#plan .content h3 {
   color: #555;
   font-weight: 300;
   font-size: 18px;
@@ -561,37 +561,37 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
 }
 
-#about .content p {
+#plan .content p {
   line-height: 26px;
 }
 
-#about .content p:last-child {
+#plan .content p:last-child {
   margin-bottom: 0;
 }
 
-#about .content i {
+#plan .content i {
   font-size: 20px;
   padding-right: 4px;
   color: #ECD16A;
 }
 
-#about .content ul {
+#plan .content ul {
   list-style: none;
   padding: 0;
 }
 
-#about .content ul li {
+#plan .content ul li {
   padding-bottom: 10px;
 }
 
-/* Services Section
+/* strategy Section
 --------------------------------*/
 
-#services {
+#strategy {
   padding: 30px 0 0 0;
 }
 
-#services .box {
+#strategy .box {
   padding: 40px;
   margin-bottom: 40px;
   box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
@@ -599,18 +599,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.4s;
 }
 
-#services .box:hover {
+#strategy .box:hover {
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
 }
 
-#services .box .icon {
+#strategy .box .icon {
   float: left;
 }
 
-#services .box .icon i {
+#strategy .box .icon i {
   color: #444;
   font-size: 64px;
   transition: 0.5s;
@@ -618,7 +618,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 34px;
 }
 
-#services .box .icon i:before {
+#strategy .box .icon i:before {
   background: #50d8af;
   background: linear-gradient(45deg, #ECD16A 0%, #a3ebd5 100%);
   background-clip: border-box;
@@ -626,49 +626,49 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-text-fill-color: transparent;
 }
 
-#services .box h4 {
+#strategy .box h4 {
   margin-left: 100px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 22px;
 }
 
-#services .box h4 a {
+#strategy .box h4 a {
   color: #444;
 }
 
-#services .box p {
+#strategy .box p {
   font-size: 14px;
   margin-left: 100px;
   margin-bottom: 0;
   line-height: 24px;
 }
 
-/* Clients Section
+/* exchanges Section
 --------------------------------*/
 
-#clients {
+#exchanges {
   padding: 30px 0;
 }
 
-#clients img {
+#exchanges img {
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
   padding: 15px 0;
 }
 
-#clients img:hover {
+#exchanges img:hover {
   opacity: 1;
 }
 
-#clients .owl-nav,
-#clients .owl-dots {
+#exchanges .owl-nav,
+#exchanges .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-#clients .owl-dot {
+#exchanges .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -677,19 +677,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #ddd;
 }
 
-#clients .owl-dot.active {
+#exchanges .owl-dot.active {
   background-color: #ECD16A;
 }
 
-/* Our Portfolio Section
+/* Our gallery Section
 --------------------------------*/
 
-#portfolio {
+#gallery {
   background: #fff;
   padding: 30px 0;
 }
 
-#portfolio .portfolio-overlay {
+#gallery .gallery-overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -701,7 +701,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all ease-in-out 0.4s;
 }
 
-#portfolio .portfolio-item {
+#gallery .gallery-item {
   overflow: hidden;
   position: relative;
   padding: 0;
@@ -709,7 +709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-#portfolio .portfolio-item h2 {
+#gallery .gallery-item h2 {
   color: #ffffff;
   font-size: 24px;
   margin: 0;
@@ -717,22 +717,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
 }
 
-#portfolio .portfolio-item img {
+#gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
   width: 100%;
 }
 
-#portfolio .portfolio-item:hover img {
+#gallery .gallery-item:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-#portfolio .portfolio-item:hover .portfolio-overlay {
+#gallery .gallery-item:hover .gallery-overlay {
   opacity: 1;
   background: rgba(0, 0, 0, 0.7);
 }
 
-#portfolio .portfolio-info {
+#gallery .gallery-info {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -851,6 +851,41 @@ body.mobile-nav-active #mobile-nav-toggle {
 #call-to-action .cta-btn:hover {
   background: #ECD16A;
   border: 3px solid #ECD16A;
+}
+
+
+/* faqs Section
+--------------------------------*/
+
+#faqs {
+  padding: 10px 0 0 0;
+}
+.faqs-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0;
+}
+.faqs-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f7de2;
+}
+.faqs-section .panel-default .panel-title a:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 3rem;
+  content: "\f106";
+  color: #1f7de2;
+  float: right;
+  margin-top: -12px;
+}
+.faqs-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+.faqs-section .panel-default .panel-body {
+  font-size: 1.2rem;
 }
 
 /* Our Team Section
@@ -1096,11 +1131,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 
-  #about .about-img {
+  #plan .plan-img {
     height: auto;
   }
 
-  #about .about-img img {
+  #plan .plan-img img {
     margin-left: 0;
     padding-bottom: 30px;
   }
@@ -1111,18 +1146,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 34px;
   }
 
-  #services .box .box {
+  #strategy .box .box {
     margin-bottom: 20px;
   }
 
-  #services .box .icon {
+  #strategy .box .icon {
     float: none;
     text-align: center;
     padding-bottom: 15px;
   }
 
-  #services .box h4,
-  #services .box p {
+  #strategy .box h4,
+  #strategy .box p {
     margin-left: 0;
     text-align: center;
   }
