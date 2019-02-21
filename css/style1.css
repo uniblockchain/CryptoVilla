@@ -47,11 +47,11 @@ p{font-size:14px; line-height:26px; color:#7f7f7f;}
 /*********************************************
 		Header css
 *********************************************/
-.header{position:absolute; top:0; left:0; width:100%;}
+.header{position:absolute; top:0; left:0; width:100%; background: rgba(0, 0, 0, 0.4)}
 .logo{padding:10px 0px;}
 .navbar{margin-bottom: 0px;}
 .navigationwrape{float: right; margin-top:30px;}
-.navbar-default .navbar-nav>li>a{font-size: 14px; color: #fff; font-weight: 600; text-transform: uppercase; padding:0 16px;}
+.navbar-default .navbar-nav>li>a{font-size: 14px; color: #fff; font-weight: 600;  text-transform: uppercase; padding:0 16px;}
 .navbar-default .navbar-nav>li:hover>a, .navbar-nav li:hover .dropdown-menu{color: #f89406;}
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color: #ECD16A;}
 .navbar-default .navbar-nav>li>a.active{color: #ECD16A; background: #fdc236;}
@@ -90,7 +90,7 @@ p{font-size:14px; line-height:26px; color:#7f7f7f;}
 /*********************************************
 	Welcome css
 *********************************************/
-.welcome-wrap{padding:70px 0; background:#eee;}
+.welcome-wrap{padding:90px 0; background:#eee;}
 .welcome-wrap h1{text-align:left; font-size:46px; margin-top:0;}
 .welcome-wrap h1:before{left:0; margin:0;}
 .welcome-wrap p{font-size:16px; line-height:26px; color:#797979;}

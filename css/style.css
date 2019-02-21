@@ -121,7 +121,7 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-
+/**
 #header {
   padding: 20px 0;
   height: 84px;
@@ -154,6 +154,33 @@ h6 {
   padding: 0;
   margin: 0;
 }
+**/
+/*********************************************
+		Header css
+*********************************************/
+.header{position:absolute; top:0; left:0; width:100%; background: rgba(0, 0, 0, 0.4)}
+.logo{padding:10px 0px;}
+.navbar{margin-bottom: 0px;}
+.navigationwrape{float: right; margin-top:30px;}
+.navbar-light .navbar-nav>li.nav-item>a.nav-link{font-size: 14px; color: #fff; font-weight: 600;  text-transform: uppercase; padding:0 16px;}
+.navbar-light .navbar-nav>li.nav-item:hover>a, .navbar-nav li:hover .dropdown-menu{color: #f89406;}
+.navbar-light .navbar-nav>li.nav-item>a.nav-link:focus, .navbar-light .navbar-nav>li.nav-item>a.nav-link:hover{color: #ECD16A;}
+.navbar-light .navbar-nav>li.nav-item>a.nav-link.active{color: #ECD16A; background: #fdc236;}
+.navbar-light{background: none; border: none;}
+.navbar{min-height:0px;}
+.sticky{top:0; position:fixed; width:100%; z-index:10000; height:86px; -webkit-box-shadow: 0 3px 6px rgba(4,4,4,.12);
+	-moz-box-shadow: 0 3px 6px rgba(4,4,4,.12);
+	box-shadow: 0 3px 6px rgba(4,4,4,.12); background:#FFF;}
+.navbar-toggler{background:#fff; position: absolute; top: 18px; right: 0;}
+.sticky .navbar-light .navbar-nav>li.nav-item>a.nav-link{color:#555 !important;}
+.sticky .navbar-light .navbar-nav>li.nav-item>a.nav-link:hover{color: #ECD16A !important;}
+.sticky .navbar-light .navbar-nav .menu-active > a.nav-link {  color: #ECD16A;}
+.navbar-toggler .icon-bar{color:#00beff;}
+.navbar-collapse{padding-right:15px;padding-left:15px;overflow-x:visible;border-top:1px solid transparent;}
+.navbar{z-index:10000;}
+.custom-navbar .nav li.active > a {background-color: transparent; color: #1f72d9;}
+.navbar{border:none;}
+
 
 /*--------------------------------------------------------------
 # Intro Section
