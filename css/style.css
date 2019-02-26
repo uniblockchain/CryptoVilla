@@ -180,6 +180,54 @@ h6 {
 .navbar{z-index:10000;}
 .custom-navbar .nav li.active > a {background-color: transparent; color: #1f72d9;}
 .navbar{border:none;}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+.navbar-light .navbar-toggler-icon {
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); */
+  background-image: none;
+  color: #00beff;
+}
+.navbar-collapse {
+  flex-flow: row wrap;
+}
+/* 
+.flex-row {
+  flex-direction: row;
+  width: 100%;
+} */
+
+.btn-login,
+.btn-signup{
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 5px;
+  color: #ECD16A;
+}
+.btn-signup {
+  background: none;
+  border: 2px solid #ECD16A;
+}
+
+.btn-signup:hover {
+  background: #ECD16A;
+  color: #fff;
+}
+.btn-login:hover {
+  color: #50d8af;
+}
 
 
 /*--------------------------------------------------------------
@@ -1198,4 +1246,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact #google-map {
     margin-top: 20px;
   }
+}
+
+/*================
+SIGN UP AND LOGIN 
+=================*/
+.btn-outline-primary {
+  color: #50d8af;
+  background-color: transparent;
+  background-image: none;
+  border-color: #50d8af;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #50d8af;
+  border-color: #50d8af;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #50d8af;
+  border-color: #50d8af;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2ccc9c;
+  border-color: #2ccc9c;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
